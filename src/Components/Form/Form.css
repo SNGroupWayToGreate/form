@@ -1,0 +1,79 @@
+.formWrapper{
+
+}
+.block{
+	position: relative;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 23px;
+	background: #FFFFFF;
+box-shadow: 3px 6px 20px -5px rgba(0, 0, 0, 0.25), -3px -6px 20px -5px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.block hr{
+	border: 1px solid #CCCCCC;
+	margin-bottom: 35px;
+}
+.items>*:not(:last-child){
+	margin-bottom: 15px;
+
+}
+.items>*:last-child{
+	margin-bottom: 35px;
+}
+.title{
+	margin-bottom: 23px;
+}
+
+.form__container{
+	max-width:1430px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.buttons{
+	display: flex;
+	justify-content: end;
+}
+.userInfo__buttons{
+	position: absolute;
+	bottom: 20px;
+	right:30px;
+	display: flex;
+	justify-content: end;
+}
+.buttons>*:not(:last-child){
+	margin-right: 15px;
+}
+.userInfo__buttons>*:not(:last-child){
+	margin-right: 15px;
+}
+.workDetails__selects{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+.userInfo{
+	margin-bottom: 30px;
+}
+.workDetails{
+margin-bottom: 39px;
+}
+.jobType{
+	
+}
+.form__block{
+	display: grid;
+	grid-template: 1fr / 1fr 1fr;
+	column-gap: 30px;
+}
+@media (max-width:767px) {
+	.form__block{
+		display: grid;
+		grid-template:2fr repeat(2,0.20fr) / 1fr;
+		column-gap: 30px;
+	}
+}
+select{
+	border: 1px solid #E5E9EB;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding:10px 20px;
+}

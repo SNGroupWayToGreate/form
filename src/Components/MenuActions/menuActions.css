@@ -1,0 +1,39 @@
+.menu__actions__items {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.menu__actions__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hearCount,
+.shoppingCount {
+    position: relative;
+}
+
+.featuredCount,
+.productCount {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    background: #4D96FF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    user-select: none;
+}
+
+.featuredCount {
+    right: 15px;
+}
